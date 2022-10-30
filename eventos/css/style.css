@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&family=Merriweather:ital,wght@0,700;0,900;1,700&family=Mulish:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #ECEFF8;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-height: 1200px;
+    max-width: 1600px;
+}
+
+main{
+    margin-top: 26px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+main h1{
+    margin-top: 50px;
+    margin-bottom: 26px;
+    font-family: Merriweather;
+    font-size: 36px;
+    font-weight: Black;
+    color: #1B2442;
+    display: flex;
+    text-align: left;
+}
+
+section{
+    background-color: #FFFFFF;
+    border-radius: 20px;
+    max-width: 1047px;
+    height: 173px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 20px;
+    margin-bottom: 15px; /*espaçamento entre cada card*/
+}
+
+.first-div{
+    background-color: #ECEFF8;
+    color: #1B2442;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 27px;
+    width: 158px;
+    border-radius: 10px;
+}
+
+.date{
+    font-family: Mulish, Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    color: #1B2442;
+}
+
+.hour{
+    font-family: Merriweather;
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.second-div{
+    margin: 40px 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 524px;
+}
+
+.second-div-title{
+    font-family: Merriweather;
+    font-size: 26px;
+    font-weight: Black;
+    color: #1B2442;
+    margin-bottom: 14px;
+}
+
+.second-div-text{
+    font-family: IBM Plex Sans;
+    font-size: 18px;
+    font-weight: regular;
+    color: 000000;
+}
+
+.third-div{
+    display: flex;
+    padding: 40px;
+    height: 54px;
+    justify-content: center;
+    align-items: center;
+}
+
+.third-div button{
+    display: flex;
+}
+
+.btn{
+    background-color: #FFFFFF;
+    padding: 16px;
+    border-radius: 15px;
+    font-size: 16px;
+    font-family: IBM Plex Sans, sans-serif;
+    font-weight: 400;
+}
+.btn-black{
+    background-color: #000000;
+    color: #FFFFFF;
+}
+
+.fa-light fa-plus{
+    width: 22px;
+    height: 22px;
+    margin-left: 3px;
+}
+
+.first-div-two{
+    background-color: #F8ECF8;
+    
+}
+
+.first-div-three{
+    background-color: #F8ECEC;
+}
+
+.first-div-four{
+    background-color: #EEF8EC;
+}
+
+
+
