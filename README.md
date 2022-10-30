@@ -1,7 +1,7 @@
 # Interfaces WEB 
 
 
-![Capa do Projeto](./evento.png)
+![Capa do Projeto](./eventos.png)
 
 # Sobre o Projeto
 
